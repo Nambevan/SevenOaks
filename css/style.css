@@ -1,0 +1,98 @@
+.wrapper{
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 0 1em;
+}
+/* HEADER*/
+
+/* END HEADER*/
+
+/* CONTENT*/
+
+/* END CONTENT*/
+
+/* FOOTER*/
+
+.footer_wrap{
+    background-color: #525252;
+    height:245px;
+}
+.footer_content{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.signup_button{
+    background-color: #4999af;
+    width:275px;
+    height: 40px;
+    border:none;
+    border-radius: 5px;
+}
+
+.footer_title ,.signup_button{
+    font-size:20px;
+    color:#ded9d6;
+}
+.sprite {
+    background: url("../img/sprite.png") no-repeat;;
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+}
+.social_icons{
+    margin-top: 30px;
+}
+.social_icons li{
+    cursor: pointer;
+    display: inline-block;
+    margin-right:5px;
+}
+.social_icons li:nth-child(1){
+    background-position: 0 0;
+}
+.social_icons li:nth-child(2){
+    background-position: -34px 0;
+}
+.social_icons li:nth-child(3){
+    background-position: -68px 0;
+}
+.social_icons li:nth-child(4){
+    background-position: -102px 0;
+}
+.social_icons li:nth-child(5){
+    background-position: -136px 0;
+}
+.footer_sign_text , a{
+    font-size: 15px;
+    color: #b3b3b3;
+}
+.footer_sign a {
+    text-decoration: none;
+    border-left: 1px solid #b3b3b3;
+    padding-left:5px;
+}
+.footer_sign{
+    border-top:1px solid #b3b3b3;
+    padding-top: 15px;
+}
+.email_signup, .service_times, .social{
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+    margin-top:30px;
+    margin-bottom: 50px;
+}
+.signup_button{
+    margin-top: 30px;
+    cursor: pointer;
+}
+.signup_button:hover{
+    opacity:0.9;
+}
+.service_times_items{
+    margin-top: 30px;
+}
+/* END FOOTER
+.footer_content div span:first-child{
+    display: block;
+}*/
