@@ -1,9 +1,102 @@
-.wrapper{
-    margin: 0 auto;
-    max-width: 1400px;
-    padding: 0 1em;
+
+/* SLIDER*/
+.carousel{
+    z-index: 9;
+    width: 1440px;
+    margin-left: -150px;
 }
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    min-height: 525px;
+    margin: auto;
+}
+.slide_text{
+    width: 450px;
+    height: 160px;
+    background-color: #4392a8;
+    opacity:0.9;
+    color:#ffffff;
+    font-size:30px;
+    top: 325px;
+    left: 0;
+    padding: 25px;
+    margin-left: 220px;
+}
+.slide_text_span{
+    font-weight: bold;
+}
+/* END SLIDER*/
+
 /* HEADER*/
+
+.header_wrap{
+    width: 1000px;
+    height:125px;
+    z-index: 10;
+    background-color: #fff;
+    left:50%;
+    margin-left: -500px;
+}
+.logo a{
+    display: inline-block;
+}
+.logo{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.nav_panel{
+    top: 0;
+    right: 0;
+}
+.big_nav{
+    clear: both;
+}
+.big_nav li{
+    display: inline-block;
+}
+.big_nav a{
+    color: #668333 !important;
+    font-size:20px;
+    margin-left: 35px;
+    margin-right: 20px;
+}
+.big_nav a:hover{
+    opacity:0.7;
+    text-decoration: none;
+}
+.active a{
+    color: #81b9c8 !important;
+}
+.small_nav{
+    background-color: #1b7f9b;
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    float: right;
+    opacity:.95;
+    padding: 8px;;
+}
+.small_nav li{
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+.small_nav a{
+    color: #ffffff!important;
+    font-size:15px;
+}
+.small_nav a:hover{
+    opacity:0.7;
+    text-decoration: none;
+}
+.small_nav li:nth-child(4){
+    margin-left:70px;
+}
+.menu_bonus{
+    top: 20px;
+    right: -13px;
+}
 
 /* END HEADER*/
 
@@ -12,12 +105,16 @@
 /* END CONTENT*/
 
 /* FOOTER*/
-
-.footer_wrap{
+.wrapper{
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 0 1em;
+}
+.footer{
     background-color: #525252;
     height:245px;
 }
-.footer_content{
+.footer_wrap{
     margin: 0 auto;
     max-width: 1000px;
 }
@@ -28,7 +125,6 @@
     border:none;
     border-radius: 5px;
 }
-
 .footer_title ,.signup_button{
     font-size:20px;
     color:#ded9d6;
@@ -64,7 +160,7 @@
 }
 .footer_sign_text , a{
     font-size: 15px;
-    color: #b3b3b3;
+    color: #b3b3b3 !important;
 }
 .footer_sign a {
     text-decoration: none;
@@ -92,7 +188,4 @@
 .service_times_items{
     margin-top: 30px;
 }
-/* END FOOTER
-.footer_content div span:first-child{
-    display: block;
-}*/
+/* END FOOTER*/
