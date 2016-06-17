@@ -669,3 +669,181 @@
         top: 240px;
     }
 }
+/* 768*/
+@media screen and (max-width: 768px) {
+    .carousel {
+        width: 758px;
+        margin-left: -16px;
+    }
+}
+/* 706*/
+@media screen and (max-width: 706px) {
+    .carousel {
+        width: 706px;
+        margin-left: -16px;
+    }
+    .small_logo {
+        margin-left: 25px;
+    }
+    .big_nav {
+        margin-right: 5%;
+    }
+    .cont_item_up{
+        width: 320px;
+        margin: 20px 0 0;
+        display: block;
+    }
+    .cont_item_up:nth-child(1){
+        margin-left: 26%;
+    }
+    .content_wrap .cont_item_up:nth-child(2),.content_wrap .cont_item_up:nth-child(3){
+        margin: 20px 0 0 26%;
+    }
+    .cont_bt_right {
+        padding: 14px;
+    }
+    .cont_bt_title {
+        margin-left: 15px;
+    }
+    .readmore {
+        margin-left: 15px;
+    }
+    .footer{
+        height:500px;
+    }
+    .email_signup, .service_times, .social {
+        width: 100%;
+        margin: 35px 0 0 160px;
+    }
+    .footer_title, .signup_button {
+        font-size: 22px;
+    }
+    .signup_button{
+        display: block;
+        width: 330px;
+    }
+    .service_times>.footer_title {
+        margin-left: 70px;
+    }
+    .social>span {
+        margin-left: 54px;
+    }
+    .social_icons {
+        margin-left: 55px;
+    }
+    .service_times_items {
+        margin-left: 27px;
+    }
+    .events_cal li {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
+/* 320*/
+@media screen and (max-width: 320px) {
+    .carousel {
+        width: 303px;
+        margin-left: -15px;
+    }
+     .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+        min-height: 434px;
+    }
+    .header_wrap {
+        width: 302px;
+        margin-left: -151px;
+    }
+    .hidden_menu {
+        left: 75%;
+    }
+    .slide_text {
+        width: 216px;
+        height: 117px;
+        font-size: 15px;
+        top: 307px;
+    }
+    .email_signup, .service_times, .social {
+        margin-left: 41px;
+    }
+    .footer_title, .signup_button {
+        font-size: 15px;
+    }
+    .service_times>.footer_title {
+        margin-left: 50px;
+    }
+    .social>span {
+        margin-left: 34px;
+    }
+    .signup_button {
+        margin-left: 13px;
+        width: 203px;
+    }
+    .social_icons {
+        margin-left: 6px;
+    }
+    .service_times_items {
+        margin-left: 16px;
+    }
+    .footer_sign {
+        margin-left: 12px;
+        width: 279px;
+    }
+    .mounth_day{
+        font-size:25px;
+    }
+    .mounth{
+        font-size:10px;
+    }
+    .event{
+        font-size:15px;
+    }
+    .week_day{
+        font-size: 11px;
+    }
+    .time{
+        font-size: 11px;
+    }
+    .more{
+        width: 62px;
+        height: 26px;
+    }
+    .events_cal li {
+        width: 275px;
+        margin-left: 18px;
+    }
+    .cont_item_up{
+        width: 90%;
+        margin: 20px 0 0;
+    }
+    .cont_item_up:nth-child(1){
+        margin-left: 5%;
+    }
+    .content_wrap .cont_item_up:nth-child(2){
+        margin-left:16px;
+    }
+    .content_wrap .cont_item_up:nth-child(3){
+        margin-left:16px;
+    }
+    .text_1 {
+        margin-left: 99px;
+    }
+    .text_2 {
+        margin-left: 31px;
+    }
+    .text_3 {
+        margin-left: 105px;
+    }
+    .content_wrap {
+        margin-top: 5px;
+    }
+    .big_nav li{
+        display: block;
+        margin-bottom: 20px;
+    }
+    .big_nav {
+        padding: 20px;
+    }
+    .small_nav {
+        margin-right: -18px;
+    }
+
+}
