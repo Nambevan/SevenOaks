@@ -182,9 +182,7 @@
     position: absolute;
     right: 9px;
     top: 7px;
-    background-image: url("../img/sprite.png");
-    background-repeat: no-repeat;
-    background-position: -192px 0;
+    background: url("../img/sprite.png") no-repeat -192px 0;
     width: 32px;
     height: 32px;
 }
@@ -679,7 +677,7 @@
 /* 706*/
 @media screen and (max-width: 706px) {
     .carousel {
-        width: 706px;
+        width: 690px;
         margin-left: -16px;
     }
     .small_logo {
@@ -688,15 +686,15 @@
     .big_nav {
         margin-right: 5%;
     }
-    .cont_item_up{
+    .cont_item_up {
         width: 320px;
         margin: 20px 0 0;
         display: block;
     }
-    .cont_item_up:nth-child(1){
+    .cont_item_up:nth-child(1) {
         margin-left: 26%;
     }
-    .content_wrap .cont_item_up:nth-child(2),.content_wrap .cont_item_up:nth-child(3){
+    .content_wrap .cont_item_up:nth-child(2), .content_wrap .cont_item_up:nth-child(3) {
         margin: 20px 0 0 26%;
     }
     .cont_bt_right {
@@ -708,8 +706,8 @@
     .readmore {
         margin-left: 15px;
     }
-    .footer{
-        height:500px;
+    .footer {
+        height: 500px;
     }
     .email_signup, .service_times, .social {
         width: 100%;
@@ -718,18 +716,18 @@
     .footer_title, .signup_button {
         font-size: 22px;
     }
-    .signup_button{
+    .signup_button {
         display: block;
         width: 330px;
     }
-    .service_times>.footer_title {
+    .service_times > .footer_title {
         margin-left: 70px;
     }
-    .social>span {
+    .social > span {
         margin-left: 54px;
     }
     .social_icons {
-        margin-left: 55px;
+        margin-left: 62px;
     }
     .service_times_items {
         margin-left: 27px;
@@ -738,6 +736,146 @@
         width: 90%;
         margin-left: 5%;
     }
+    .footer_sign_text, a {
+        margin-left: 15px;
+    }
+    .small_nav li:nth-child(4) {
+        margin-left: 0;
+    }
+    .carousel-control{
+        margin-left: 0;
+    }
+    .hidden_menu {
+        left: 85%;
+    }
+    .header_wrap {
+        width: 689px;
+        margin-left: -345px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .carousel {
+        width: 655px;
+    }
+    .header_wrap {
+        width: 671px;
+        margin-left: -345px;
+    }
+
+}
+
+@media screen and (max-width: 638px) {
+    .carousel {
+        width: 622px;
+    }
+    .header_wrap {
+        width: 655px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .carousel {
+        width: 586px;
+    }
+    .header_wrap {
+        width: 637px;
+    }
+    .email_signup, .service_times, .social {
+        margin: 35px 0 0 130px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .carousel {
+        width: 553px;
+    }
+    .header_wrap {
+        width: 621px;
+    }
+    .email_signup, .service_times, .social {
+        margin: 35px 0 0 115px;
+    }
+    .content_wrap .cont_item_up:nth-child(1), .content_wrap .cont_item_up:nth-child(2) ,.content_wrap .cont_item_up:nth-child(3){
+        margin-left:21%;
+    }
+}
+@media screen and (max-width: 540px) {
+    .carousel {
+        width: 525px;
+    }
+    .header_wrap {
+        width: 607px;
+    }
+    .email_signup, .service_times, .social {
+        margin: 35px 0 0 100px;
+    }
+    .slide_text {
+        width: 330px;
+    }
+    .small_logo {
+        margin-left: 80px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .carousel {
+        width: 494px;
+    }
+    .header_wrap {
+        width: 591px;
+    }
+    .content_wrap .cont_item_up:nth-child(1), .content_wrap .cont_item_up:nth-child(2) ,.content_wrap .cont_item_up:nth-child(3){
+        margin-left: 18%;
+    }
+    .email_signup, .service_times, .social {
+        margin: 35px 0 0 80px;
+    }
+    .big_nav {
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 482px) {
+    .carousel {
+        width: 466px;
+    }
+}
+@media screen and (max-width: 467px) {
+    .big_nav li{
+        display: block;
+        margin-bottom: 20px;
+    }
+    .big_nav {
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 457px) {
+    .email_signup, .service_times, .social {
+        margin: 35px 0 0 60px;
+    }
+    .carousel {
+        width: 442px;
+    }
+    .header_wrap {
+        width: 566px;
+    }
+    .content_wrap .cont_item_up:nth-child(1), .content_wrap .cont_item_up:nth-child(2), .content_wrap .cont_item_up:nth-child(3) {
+        margin-left: 14%;
+    }
+    .slide_text {
+        margin-left: 63px;
+        width: 320px;
+    }
+    .email_signup, .service_times, .social {
+        margin: 35px 0 0 50px;
+    }
+}
+@media screen and (max-width: 437px) {
+    .carousel {
+        width: 415px;
+    }
+    .small_logo {
+        margin-left: 130px;
+    }
 }
 /* 320*/
 @media screen and (max-width: 320px) {
@@ -745,8 +883,8 @@
         width: 303px;
         margin-left: -15px;
     }
-     .carousel-inner > .item > img, .carousel-inner > .item > a > img {
-        min-height: 434px;
+    .content_wrap .cont_item_up:nth-child(1), .content_wrap .cont_item_up:nth-child(2), .content_wrap .cont_item_up:nth-child(3) {
+        margin-left: 5%;
     }
     .header_wrap {
         width: 302px;
@@ -759,7 +897,8 @@
         width: 216px;
         height: 117px;
         font-size: 15px;
-        top: 307px;
+        top: 280px;
+        margin-left: 20px;
     }
     .email_signup, .service_times, .social {
         margin-left: 41px;
@@ -814,14 +953,8 @@
         width: 90%;
         margin: 20px 0 0;
     }
-    .cont_item_up:nth-child(1){
+    .content_wrap .cont_item_up:nth-child(1), .content_wrap .cont_item_up:nth-child(2), .content_wrap .cont_item_up:nth-child(3) {
         margin-left: 5%;
-    }
-    .content_wrap .cont_item_up:nth-child(2){
-        margin-left:16px;
-    }
-    .content_wrap .cont_item_up:nth-child(3){
-        margin-left:16px;
     }
     .text_1 {
         margin-left: 99px;
@@ -845,5 +978,7 @@
     .small_nav {
         margin-right: -18px;
     }
-
+    .small_logo {
+        margin-left:-25px;
+    }
 }
