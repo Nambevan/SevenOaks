@@ -1,15 +1,12 @@
 
-/* SLIDER*/
+                                                        /* SLIDER*/
 .carousel{
     z-index: 9;
-    width: 1440px;
-    margin-left: -150px;
-}
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
     width: 100%;
-    min-height: 525px;
-    margin: auto;
+}
+.slider_img{
+    background: url(../img/slider_inner.jpg) center center no-repeat;
+    min-height: 520px;
 }
 .slide_text{
     width: 450px;
@@ -26,9 +23,14 @@
 .slide_text_span{
     font-weight: bold;
 }
-/* END SLIDER*/
+.container{
+    width: 1400px !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+                                                        /* END SLIDER*/
 
-/* HEADER*/
+                                                        /* HEADER*/
 
 .header_wrap{
     width: 1000px;
@@ -125,10 +127,10 @@
 .second_1{
     display: none;
 }
-/* END HEADER*/
+                                                        /* END HEADER*/
 
-/* CONTENT*/
-/* First section*/
+                                                        /* CONTENT*/
+                                                        /* First section*/
 .content_wrap{
     margin: 0 auto;
     max-width: 1000px;
@@ -196,7 +198,7 @@
     background-color: #f1715e;
 }
 
-/* Second section*/
+                                                        /* Second section*/
 
 .cont_item_bt{
     width: 498px;
@@ -279,9 +281,9 @@
     font-weight: bold;
     text-decoration: none;
 }
-/* END CONTENT*/
+                                                        /* END CONTENT*/
 
-/* FOOTER*/
+                                                        /* FOOTER*/
 .footer{
     background-color: #525252;
     height:245px;
@@ -360,37 +362,31 @@
 .service_times_items{
     margin-top: 30px;
 }
-/* END FOOTER*/
+                                                /* END FOOTER*/
 
-
-/* 1240*/
+/* 1240*/s
 @media screen and (max-width: 1240px){
-    .carousel{
-        width: 1240px;
-        margin-left: -50px;
+    .container{
+        width: 1240px !important;
     }
 }
 /* 1200*/
 @media screen and (max-width: 1200px){
-    .carousel{
-        width: 1200px;
-        margin-left: -30px;
+    .container{
+        width: 1200px !important;
     }
 }
 /* 1199*/
 @media screen and (max-width: 1199px){
-    .carousel{
-        margin-left: -130px;
-    }
+
     .slide_text {
         margin-left: 103px;
     }
 }
 /* 1100*/
 @media screen and (max-width: 1100px){
-    .carousel{
-        width: 1100px;
-        margin-left: -80px;
+    .container{
+        width: 1100px !important;
     }
     .header_wrap{
         width: 900px;
@@ -440,9 +436,8 @@
 }
 /* 1024*/
 @media screen and (max-width: 1024px){
-    .carousel{
-        width: 1024px;
-        margin-left: -40px;
+    .container{
+        width: 1024px !important;
     }
     .slide_text {
         margin-left: 64px;
@@ -450,16 +445,14 @@
 }
 /* 991*/
 @media screen and (max-width: 991px){
-    .carousel{
-        width: 991px;
-        margin-left: -135px;
+    .container{
+        width: 991px !important;
     }
 }
 /* 990*/
 @media screen and (max-width: 990px){
-    .carousel{
-        width: 990px;
-        margin-left: -135px;
+    .container{
+        width: 990px !important;
     }
     .header_wrap{
         width: 800px;
@@ -509,16 +502,14 @@
 }
 /* 920*/
 @media screen and (max-width: 920px){
-    .carousel{
-        width: 920px;
-        margin-left: -108px;
+    .container{
+        width: 920px !important;
     }
 }
 /* 900*/
 @media screen and (max-width: 900px){
-    .carousel{
-        width: 900px;
-        margin-left: -108px;
+    .container{
+        width: 900px !important;
     }
     .header_wrap{
         width: 700px;
@@ -603,9 +594,8 @@
 }
 /* 780*/
 @media screen and (max-width: 780px){
-    .carousel{
-        width: 780px;
-        margin-left: -38px;
+    .container{
+        width: 780px !important;
     }
     .header_wrap {
         width: 761px;
@@ -669,16 +659,14 @@
 }
 /* 768*/
 @media screen and (max-width: 768px) {
-    .carousel {
-        width: 758px;
-        margin-left: -16px;
+    .container{
+        width: 768px !important;
     }
 }
 /* 706*/
 @media screen and (max-width: 706px) {
-    .carousel {
-        width: 690px;
-        margin-left: -16px;
+    .container{
+        width: 706px !important;
     }
     .small_logo {
         margin-left: 25px;
@@ -755,8 +743,8 @@
 }
 
 @media screen and (max-width: 670px) {
-    .carousel {
-        width: 655px;
+    .container{
+        width: 670px!important;
     }
     .header_wrap {
         width: 671px;
@@ -766,16 +754,16 @@
 }
 
 @media screen and (max-width: 638px) {
-    .carousel {
-        width: 622px;
+    .container{
+        width: 638px!important;
     }
     .header_wrap {
         width: 655px;
     }
 }
 @media screen and (max-width: 600px) {
-    .carousel {
-        width: 586px;
+    .container{
+        width: 600px!important;
     }
     .header_wrap {
         width: 637px;
@@ -786,8 +774,8 @@
 }
 
 @media screen and (max-width: 570px) {
-    .carousel {
-        width: 553px;
+    .container{
+        width: 570px!important;
     }
     .header_wrap {
         width: 621px;
@@ -800,8 +788,8 @@
     }
 }
 @media screen and (max-width: 540px) {
-    .carousel {
-        width: 525px;
+    .container{
+        width: 540px!important;
     }
     .header_wrap {
         width: 607px;
@@ -818,8 +806,8 @@
 }
 
 @media screen and (max-width: 510px) {
-    .carousel {
-        width: 494px;
+    .container{
+        width: 510px!important;
     }
     .header_wrap {
         width: 591px;
@@ -835,11 +823,14 @@
     }
 }
 @media screen and (max-width: 482px) {
-    .carousel {
-        width: 466px;
+    .container{
+        width: 482px!important;
     }
 }
 @media screen and (max-width: 467px) {
+    .container{
+        width: 467px!important;
+    }
     .big_nav li{
         display: block;
         margin-bottom: 20px;
@@ -849,12 +840,13 @@
     }
 }
 @media screen and (max-width: 457px) {
+    .container{
+        width: 457px!important;
+    }
     .email_signup, .service_times, .social {
         margin: 35px 0 0 60px;
     }
-    .carousel {
-        width: 442px;
-    }
+
     .header_wrap {
         width: 566px;
     }
@@ -870,8 +862,8 @@
     }
 }
 @media screen and (max-width: 437px) {
-    .carousel {
-        width: 415px;
+    .container{
+        width: 437px!important;
     }
     .small_logo {
         margin-left: 130px;
@@ -879,9 +871,8 @@
 }
 /* 320*/
 @media screen and (max-width: 320px) {
-    .carousel {
-        width: 303px;
-        margin-left: -15px;
+    .container{
+        width: 295px !important;
     }
     .content_wrap .cont_item_up:nth-child(1), .content_wrap .cont_item_up:nth-child(2), .content_wrap .cont_item_up:nth-child(3) {
         margin-left: 5%;
